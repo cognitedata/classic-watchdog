@@ -26,7 +26,7 @@ import (
 )
 
 // magicString is used for the hacky label test in checkLabels. Remove once fixed.
-const magicString = "zZgWfBxLqvG8kc8IMv3POi2Bb0tZI3vAnBx+gBaFi9FyPzB/CzKUer1yufDa"
+const magicString = "zZgWfBxLqvG8kc8IMv3POi2Bb0tZI3vAnBx+gBaFi9FyPzB/CzKUer1yufDa" // pragma: allowlist secret
 
 // InstrumentHandlerInFlight is a middleware that wraps the provided
 // http.Handler. It sets the provided prometheus.Gauge to the number of
